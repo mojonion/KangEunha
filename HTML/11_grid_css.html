@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>그리드 레이아웃 연습</title>
+  <link rel="stylesheet" href="./css/11_grid_css.css">
+</head>
+
+<body>
+  <h3>grid-template-columns와 grid-template-rows 속성</h3>
+  <div class="grid" id="grid1">
+    <div class="items"><p>1</p></div>
+    <div class="items"><p>2</p></div>
+    <div class="items"><p>3</p></div>
+    <div class="items"><p>4</p></div>
+    <div class="items"><p>5</p></div>
+    <div class="items"><p>6</p></div>
+  </div>
+
+  <hr>
+
+  <h3>grid-auto-rows 속성</h3>
+  <div class="grid" id="grid2">
+    <div class="items"><p>1</p></div>
+    <div class="items"><p>2</p></div>
+    <div class="items"><p>3</p></div>
+    <div class="items"><p>4</p></div>
+    <div class="items"><p>5</p></div>
+    <div class="items"><p>6</p></div>
+  </div>
+
+  <hr>
+
+  <h3>fr 단위와 repeat 함수</h3>
+  <div class="grid" id="grid3">
+    <div class="items"><p>1</p></div>
+    <div class="items"><p>2</p></div>
+    <div class="items"><p>3</p></div>
+    <div class="items"><p>4</p></div>
+    <div class="items"><p>5</p></div>
+    <div class="items"><p>6</p></div>
+  </div>
+
+  <hr>
+
+  <h3>minmax 함수</h3>
+  <div class="grid" id="grid4">
+    <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in architecto fuga dicta? Animi totam mollitia dolores sint nostrum, tempore quo necessitatibus architecto nesciunt in, cumque quisquam minima praesentium sequi?</div>
+    <div class="items">가나다라마바사</div>
+    <div class="items">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi mollitia enim quibusdam suscipit, numquam nisi eos deserunt perspiciatis odit sed corrupti cupiditate! Vel ad laudantium error neque. Id, quasi exercitationem!</div>
+    <div class="items">ABCDEFG</div>
+    <div class="items">123456789</div>
+    <div class="items">123456789</div>
+  </div>
+
+  <hr>
+
+  <h3>auto-fit 과 auto-fill 속성</h3>
+  <h5>1. auto-fit 일 때</h5>
+  <div class="grid" id="auto-fit">
+    <div class="items">1</div>
+    <div class="items">2</div>
+    <div class="items">3</div>
+    <div class="items">4</div>
+    <div class="items">5</div>
+  </div>
+  <h5>2. auto-fill 일 때</h5>
+  <div class="grid" id="auto-fill">
+    <div class="items">1</div>
+    <div class="items">2</div>
+    <div class="items">3</div>
+    <div class="items">4</div>
+    <div class="items">5</div>
+  </div>
+
+  <h3>gap 속성</h3>
+  <div class="grid" id="gap">
+    <div class="items">1</div>
+    <div class="items">2</div>
+    <div class="items">3</div>
+    <div class="items">4</div>
+    <div class="items">5</div>
+    <div class="items">6</div>
+  </div>
+
+  <hr>
+
+  <h3>그리드 라인을 이용해서 그리드 레이아웃 배치</h3>
+  <div class="grid" id="useLine">
+    <div class="items" id="box1">box1</div>
+    <div class="items" id="box2">box2</div>
+    <div class="items" id="box3">box3</div>
+    <div class="items" id="box4">box4</div>
+    <div class="items" id="box5">box5</div>
+  </div>
+
+  <hr>
+
+  <h3>템플릿 영역을 사용해 배치</h3>
+  <div class="grid" id="useTemplate">
+    <div class="items" id="item1">item1</div>
+    <div class="items" id="item2">item2</div>
+    <div class="items" id="item3">item3</div>
+    <div class="items" id="item4">item4</div>
+    <div class="items" id="item5">item5</div>
+  </div>
+</body>
+
+</html>
