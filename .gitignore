@@ -104,3 +104,4 @@ ehthumbs_vista.db
 #WebContent/WEB-INF/lib/
 #WebContent/WEB-INF/classes/
 
+python/WebDriver/chromedriver.exe
